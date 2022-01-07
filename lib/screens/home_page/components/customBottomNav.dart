@@ -33,7 +33,7 @@ class customBottomNav extends StatelessWidget {
             onTap: (index)=>action(index),
               items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_outlined),label: "tes"),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite_border_outlined),label: "tes"),
+          //BottomNavigationBarItem(icon: Icon(Icons.favorite_border_outlined),label: "tes"),
           BottomNavigationBarItem(icon: Icon(Icons.shopping_bag_outlined),label: "tes"),
               ],
               backgroundColor: default_settings.kPrimaryColor.withOpacity(0.9),
