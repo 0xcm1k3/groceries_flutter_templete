@@ -3,7 +3,6 @@ import 'package:app3/screens/home_page/components/appbarWidget.dart';
 import 'package:app3/screens/home_page/components/categoriesWidget.dart';
 import 'package:app3/screens/home_page/components/customBottomNav.dart';
 import 'package:app3/screens/home_page/components/discountList.dart';
-import 'package:app3/screens/home_page/components/discountSliderWidget.dart';
 import 'package:app3/screens/home_page/components/recentlyViewdWidget.dart';
 import 'package:flutter/material.dart';
 
@@ -23,12 +22,7 @@ class _HomeState extends State<Home> {
     setState(() {
       switch(varPageIndex){
         case 1:{
-          Navigator.pushNamed(context, '/saved');
-        }
-        break;
-        case 2:{
           Navigator.pushNamed(context, '/basket');
-
         }
         break;
         default:{
