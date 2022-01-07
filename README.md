@@ -11,7 +11,7 @@ credits to the designer
 
 @pixelzstudio
 
-<img align="left" src="/groceries_flutter_templete/screens/home.png" alt="0xcm1k3" />
-<img align="left" src="/groceries_flutter_templete/screens/products_fruits.png" alt="0xcm1k3" />
-<img align="left" src="/groceries_flutter_templete/screens/checkout_nuts.png" alt="0xcm1k3" />
-<img align="left" src="/groceries_flutter_templete/screens/basket.png" alt="0xcm1k3" />
+<img align="left" src="/screens/home.png" width=400 height=800 alt="0xcm1k3" />
+<img align="left" src="/screens/products_fruits.png" width=400 height=800  alt="0xcm1k3" />
+<img align="left" src="/screens/checkout_nuts.png"  width=400 height=800 alt="0xcm1k3" />
+<img align="left" src="/screens/basket.png"  width=400 height=800 alt="0xcm1k3" />
