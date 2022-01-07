@@ -65,20 +65,25 @@ class bottomCheckoutNav extends StatelessWidget {
               ],
               ),
               Spacer(flex: 1,),
-              Container(
-                padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                color: default_settings.kSecondaryColor,
-                borderRadius: BorderRadius.circular(10)
+              GestureDetector(
+                onTap: (){
+                  Navigator.pushReplacementNamed(context, "/basket");
+                },
+                child: Container(
+                  padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                  color: default_settings.kSecondaryColor,
+                  borderRadius: BorderRadius.circular(10)
+                  ),
+                  child: Text(
+                    "CHECKOUT",
+                    style: TextStyle(
+                      fontFamily: "Inter-SemiBold",
+                      color: Colors.white,
+                    ),
+                    ),
                 ),
-                child: Text(
-                  "CHECKOUT",
-                  style: TextStyle(
-                    fontFamily: "Inter-SemiBold",
-                    color: Colors.white,
-                  ),
-                  ),
               )
           ],
         ),
